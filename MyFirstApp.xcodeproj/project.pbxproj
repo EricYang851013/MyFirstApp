@@ -21,6 +21,7 @@
 		763AC4641BB198D5003095A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763AC4461BB198D5003095A7 /* UIKit.framework */; };
 		763AC46C1BB198D5003095A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 763AC46A1BB198D5003095A7 /* InfoPlist.strings */; };
 		763AC46E1BB198D5003095A7 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AC46D1BB198D5003095A7 /* MyFirstAppTests.m */; };
+		763AC4791BB19E13003095A7 /* YXDebugInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AC4781BB19E13003095A7 /* YXDebugInfoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		763AC4691BB198D5003095A7 /* MyFirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		763AC46B1BB198D5003095A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		763AC46D1BB198D5003095A7 /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
+		763AC4771BB19E13003095A7 /* YXDebugInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXDebugInfoTableViewController.h; sourceTree = "<group>"; };
+		763AC4781BB19E13003095A7 /* YXDebugInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXDebugInfoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				763AC4581BB198D5003095A7 /* ViewController.m */,
 				763AC45A1BB198D5003095A7 /* Images.xcassets */,
 				763AC4491BB198D5003095A7 /* Supporting Files */,
+				763AC4771BB19E13003095A7 /* YXDebugInfoTableViewController.h */,
+				763AC4781BB19E13003095A7 /* YXDebugInfoTableViewController.m */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763AC4791BB19E13003095A7 /* YXDebugInfoTableViewController.m in Sources */,
 				763AC4591BB198D5003095A7 /* ViewController.m in Sources */,
 				763AC4531BB198D5003095A7 /* AppDelegate.m in Sources */,
 				763AC44F1BB198D5003095A7 /* main.m in Sources */,
